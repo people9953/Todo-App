@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>나의 멋진 투두 앱</h1>
+        <h1>나의 멋진 Todo 앱</h1>
       </header>
       <main className="main-content">
         <TodoList todoList={todoList} setTodoList={setTodoList} />
@@ -149,5 +149,3 @@ function Todo({ todo, setTodoList }) {
 }
 
 export default App;
-
-//d
